@@ -1,0 +1,10 @@
+#wallpaper {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+div#content {
+    margin: 90px 0 0 0;
+    padding: 0;
+}

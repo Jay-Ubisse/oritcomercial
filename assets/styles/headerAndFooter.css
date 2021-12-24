@@ -1,0 +1,115 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+header {
+ margin: 0;
+ padding: 0;
+ position: fixed;
+ top: 0;
+ overflow: hidden;
+ width: 100%;
+ background-color: #e9ecef;
+ height: 80px;
+}
+div#headerLogo {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    position: relative;
+    top: -60px;
+}
+nav#menu {
+    margin: 25px 0 0 0;
+    position: relative;
+    left: 47%
+}
+nav#menu ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+}
+nav#menu ul li {
+    display:inline;
+    border-style: none none none dotted;
+    border-width: thin;
+    border-color: #343a40;
+    padding: 0 5px 0 10px;
+    font-size: 120%;
+}
+nav#menu ul li a {
+    text-decoration: none;
+    color: #343a40;
+}
+nav#menu ul li a:hover {
+    color: red;
+}
+div.logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 400%;
+    color: red;
+}
+div.logo h1 span {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 70%;
+    color: #343a40;
+}
+footer {
+    background-image: url("../img/SeafoodBackground.png");
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+div#footerLogo span {
+    color: white;
+}
+#logoAndAdress {
+    width: 40%;
+    margin: 0 0 0 20px;
+}
+#adress {
+    margin-left: 30%;
+}
+#info {
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+}
+#about {
+    float: right;
+    margin-right: 10%;
+}
+#products {
+    width: 40%;
+    margin-left: 10%;
+}
+#social {
+    text-align: center;
+    margin: 60px;
+}
+#copyright {
+    border-style: solid none none none;
+    border-width: thin;
+    text-align: right;
+    font-size: small;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer ul li {
+    margin-top: 5px;
+}
+footer ul li a:hover {
+color: red;
+}
+.li {
+    margin-left: 38px;
+}
