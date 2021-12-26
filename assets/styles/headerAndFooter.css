@@ -11,23 +11,20 @@ header {
  width: 100%;
  background-color: #e9ecef;
  height: 80px;
+ overflow: visible;
 }
 div#headerLogo {
     margin: 0;
     padding: 0;
     width: 40%;
     position: relative;
-    top: -60px;
+    top: -55px;
 }
 nav#menu {
-    margin: 25px 0 0 0;
+    margin: 35px 0 0 0;
+    width: 65%;
     position: relative;
-    left: 47%
-}
-nav#menu ul {
-    list-style-type: none;
-    margin: 10px 10px 10px 0;
-    padding: 0;
+    left: 35%;
 }
 nav#menu ul li {
     display:inline;
@@ -35,13 +32,22 @@ nav#menu ul li {
     border-width: thin;
     border-color: #343a40;
     padding: 0 5px 0 10px;
-    font-size: 120%;
+}
+nav#menu ul li:first-child {
+    border-style: none;
+}
+nav#menu ul li ul li {
+    border-style: none;
+    padding: 3px;
+    margin: 0;
 }
 nav#menu ul li a {
+    padding-bottom: 5px;
+    padding-top: 5px;
     text-decoration: none;
     color: #343a40;
 }
-nav#menu ul li a:hover {
+nav#menu ul li a:hover, nav#menu ul li a:focus, nav#menu ul li a:active, nav#menu ul li a:hover {
     color: red;
 }
 div.logo h1 {
