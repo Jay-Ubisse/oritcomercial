@@ -1,1 +1,1 @@
-OritComercial is a online supermarket web site.
+OritComercial is a online supermarket web site... (continue)
