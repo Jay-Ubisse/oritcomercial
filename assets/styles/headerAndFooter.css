@@ -2,6 +2,7 @@
     body {
         margin: 0;
         padding: 0;
+        background-color: #354f52;
     }
     header {
         margin: 0;
@@ -124,27 +125,37 @@
         margin: 0;
         padding: 0;
         font-size: small;
+        background-color: #354f52;
     }
     header {
-        margin-top: -5px;
-        padding: 10px 0 10px 0;
-        background-color: #e9ecef;
+       position: fixed;
+        top: 0;
+        overflow: visible;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #03071e;
 
+    }
+    div#menu-icon {
+       position: absolute;
+       top: 1.5rem;
+       right: 1rem;
     }
     nav#menu {
         padding: 0;
         margin: 0;
-        width: 43%;
+        width: 45%;
         position: absolute;
-        left: 58%;
+        top: 3.5rem;
+        right: 5px;
     }
     div#headerLogo {
-        margin: 0;
+        margin: 10px;
         padding: 0;
         width: 40%;
     }
     nav#menu ul {
-        background-color: transparent;
+        background-color: #e9ecef;
     }
     nav#menu ul li {
         display:inline;
@@ -179,7 +190,7 @@
         padding: 0;
         font-size: 70%;
         font-weight: normal;
-        color: #343a40;
+        color: #ffe8d6;
     }
     footer {
         background-image: url("../img/SeafoodBackground.png");

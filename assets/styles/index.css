@@ -1,39 +1,71 @@
 @media(min-width: 900px) {
     #pub {
         margin: 90px 0 0 0;
-        padding: 0;
+        padding: 10px 3px;
         background-color: black;
         color: white;
         text-align: center;
         height: 300px;
     }
+    #pub h1 {
+        font-size: xx-large;
+    }
     section#content {
         margin:0;
         padding: 0;
-        border-style: solid;
     }
     #showProducts {
         margin: 10px 0 10px 1%;
         padding: 0;
-        border-style: solid;
         width: 80%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
     }
     aside {
+        text-align: center;
+        background-color: red;
+        color: white;
         margin: 10px 1% 10px 0;
+        border-radius: 10px;
         padding: 0;
         width: 17%;
-        border-style: solid;
         float: right;
     }
     .prodSquare {
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        width: 200px;
+        min-height: 200px;
+        padding-bottom: 10px;
+    }
+    input[type='number'] {
+        width: 50px;
+        margin-top: 5px;
+    }
+    input[type='button'] {
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #buy {
+        background-color: red;
+        color: white;
+        border-style: none;
+    }
+    #cart {
         border-style: solid;
+        border-color: red;
+        background-color: white;
+        color: red;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     #pub {
-        margin: 0;
-        padding: 0;
+        margin: 75px 0 0 0;
+        padding: 10px;
         background-color: black;
         color: white;
         text-align: center;
@@ -44,15 +76,45 @@
         padding: 0;
         text-align: center;
     }
+    .prodSquare {
+        border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        width: 70%;
+        height: fit-content;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
     aside div {
-        margin:  0 10px 0 10px;
-        padding: 0;
-        border-style: solid;
-        background-color: #e9ecef;
+        margin:  10px;
+        padding: 5px;
+        color: white;
+        background-color: red;
         border-radius: 30px;
     }
     #showProducts h1 {
-
         text-align: center;
+    }
+    input[type='number'] {
+        width: 50px;
+        margin-top: 5px;
+    }
+    input[type='button'] {
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #buy {
+        background-color: red;
+        color: white;
+        border-style: none;
+    }
+    #cart {
+        border-style: solid;
+        border-color: red;
+        background-color: white;
+        color: red;
     }
 }
