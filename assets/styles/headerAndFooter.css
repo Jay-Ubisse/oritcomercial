@@ -120,7 +120,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 899px) {
     body {
         margin: 0;
         padding: 0;
@@ -156,13 +156,6 @@
     }
     nav#menu ul {
         background-color: #e9ecef;
-    }
-    nav#menu ul li {
-        display:inline;
-        border-style: none none none dotted;
-        border-width: thin;
-        border-color: #343a40;
-        padding: 0 5px 0 10px;
     }
     nav#menu ul li ul li {
         border-style: none;
